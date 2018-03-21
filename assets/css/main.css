@@ -1,0 +1,229 @@
+/*-----------------
+     general
+-----------------*/
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 62.5%;
+  font-style: normal;
+  font-weight: normal;
+  color: #051033;
+}
+
+h1, h2, h3,
+h4, h5, h6,
+p, span, a {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: normal;
+  -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased;
+      -moz-font-smoothing: antialiased;
+        -o-font-smoothing: antialiased;
+}
+
+
+/*-----------------
+    navigation
+-----------------*/
+header {
+  position: absolute;
+  z-index: 1;
+  height: 5rem;
+  width: 100%;
+}
+
+header img {
+  max-height: 4rem;
+  width: auto;
+  margin-top: 1.5rem;
+}
+
+@media screen and (min-width: 801px) {
+  header img {
+    max-height: 5rem;
+  }
+}
+
+.right {
+  float: right;
+}
+
+
+/*-----------------
+     feature
+-----------------*/
+.intro {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.intro { 
+  background: url('../images/feature.jpg') #ffffff no-repeat center center; 
+  background-position: absolute;
+  background-size: cover;
+}
+
+.feature {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.feature h1 {
+  font-size: 3.5rem;
+  letter-spacing: -0.1rem;
+  font-weight: 700;
+  text-align: center;
+  color: #000;
+}
+
+@media screen and (min-width: 800px) {
+  .feature {
+    max-width: 900px;
+  }
+  .feature h1 {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .feature {
+    max-width: 1200px;
+  }
+  .feature h1 {
+    font-size: 8rem;
+  }
+}
+
+
+/*-----------------
+    the assets
+-----------------*/
+.the-assets {
+  padding: 5rem 0;
+}
+
+#video {
+	width: 100%;
+	margin: 1.5rem 0;
+  background-color: #f8f8f8;
+}
+
+.module {
+  margin: 2.5rem 0 5rem;
+  padding: 2.5rem 1.5rem;
+  border-radius: .6rem;
+  border: 1px solid #bababa;
+}
+
+.the-assets h2 {
+  padding-bottom: 1.5rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.the-assets p {
+  padding-bottom: 2.5rem;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.the-assets a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.vid-title {
+  padding-top: 3.5rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .the-assets h2 {
+    font-size: 3rem;
+  }
+  .the-assets p {
+    font-size: 2.5rem;
+  }
+  .the-assets a {
+    font-size: 2rem;
+    text-decoration: none;
+  }
+}
+
+.button, .button:visited {
+  display: block;
+  max-width: 20rem;
+  margin: 0 auto;
+  padding: 1.5rem 2.5rem;
+  border-radius: .6rem;
+  background: #ff001b;
+  text-align: center;
+  -webkit-transition: box-shadow .3s ease-in-out;
+}
+
+.button:hover {
+  box-shadow: 0 0 7px 2px rgba(0,0,0,0.3);
+}
+
+
+/*-----------------
+    the vids
+-----------------*/
+
+
+
+/*-----------------
+     the team
+-----------------*/
+.team {
+  margin-bottom: 7.5rem;
+}
+
+.team h2 {
+  padding-bottom: 2.5rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.team p {
+  padding-bottom: 2.5rem;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.team span {
+  color: #bababa;
+}
+
+.team img {
+  margin: 2.5rem 0 1.5rem;
+	border-radius: 50%;
+	border: 2px solid #bababa;
+}
+
+@media screen and (min-width: 1200px) {
+  .team h2 {
+    font-size: 3rem;
+  }
+  .team p {
+    font-size: 2.5rem;
+  }
+  .team img {
+    margin: 5rem 0 1.5rem;
+  }
+}
+
+
+
