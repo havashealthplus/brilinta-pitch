@@ -65,7 +65,8 @@ header img {
 }
 
 .intro { 
-  background: url('../images/feature.jpg') #ffffff no-repeat center center; 
+  /*background: url('../images/feature.jpg') #ffffff no-repeat center center; */
+  background: #521f5e;
   background-position: absolute;
   background-size: cover;
 }
@@ -187,7 +188,7 @@ header img {
      the team
 -----------------*/
 .team {
-  margin-bottom: 7.5rem;
+  padding: 7.5rem 0;
 }
 
 .team h2 {
