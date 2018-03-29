@@ -1,3 +1,4 @@
+
 /*-----------------
      general
 -----------------*/
@@ -65,8 +66,7 @@ header img {
 }
 
 .intro { 
-  /*background: url('../images/feature.jpg') #ffffff no-repeat center center; */
-  background: #521f5e;
+  background: #5d0968;
   background-position: absolute;
   background-size: cover;
 }
